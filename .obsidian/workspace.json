@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "677a2391a43684b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "843f25f41810930a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e55abb197e418214",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb3adea8afca1995",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6f54a1d3a0c0c4c",
+        "type": "tabs",
+        "dimension": 65.46762589928058,
+        "children": [
+          {
+            "id": "1d748f9b770146fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b81722b10531f301",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#blanck",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5d81fc7020d8ab4f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "276e9be9513d4126",
+        "type": "tabs",
+        "dimension": 34.53237410071942,
+        "children": [
+          {
+            "id": "f1d3d1830f225668",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To-Do List.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "To-Do List"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 353.5
+  },
+  "right": {
+    "id": "18815c83a5f95315",
+    "type": "split",
+    "children": [
+      {
+        "id": "df0428cded98ff4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c6826c9c057c011",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "cap6 - Memorie e Cache/Memorie a semiconduttore.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Memorie a semiconduttore"
+            }
+          },
+          {
+            "id": "305f0d3916aff6d0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "cap1/Diverse architetture.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Diverse architetture"
+            }
+          },
+          {
+            "id": "072f9cb51c1a008a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "51a6e6cb9649b3a7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "cap1/Diverse architetture.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Diverse architetture"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1d748f9b770146fa",
+  "lastOpenFiles": [
+    "Untitled.base",
+    "cap1 - Introduzione/Leggi di Moore e Nathan.md",
+    "cap1 - Introduzione/Evoluzione delle architetture.md",
+    "cap1 - Introduzione/Diverse architetture.md",
+    "cap1 - Introduzione/Analisi delle Prestazioni.md",
+    "cap2 - Organizzazione dei Sistemi di Calcolo/CPU.md",
+    "cap2 - Organizzazione dei Sistemi di Calcolo/Ciclo Fetch-decode-execute.md",
+    "cap2 - Organizzazione dei Sistemi di Calcolo/Struttura di un computer.md",
+    "note a margine/Legge di Amdahl.md",
+    "cap2 - Organizzazione dei Sistemi di Calcolo/Architetture CISC e RISC.md",
+    "note a margine/Algoritmi di rilevamento dell'errore- Hamming.md",
+    "note a margine/accoppiamento lasco.md",
+    "note a margine/Leggi di Karnaugh.md",
+    "note a margine/Performance Gap.md",
+    "note a margine/SIMD.md",
+    "Untitled.md",
+    "Untitled",
+    "pic/LeggeAmdahl copia.png",
+    "To-Do List.md",
+    "cap2 - Organizzazione dei Sistemi di Calcolo/BUS.md",
+    "cap6 - Memorie e Cache/Introduzione alle Memorie.md",
+    "cap2 - Organizzazione dei Sistemi di Calcolo/Memorie.md",
+    "cap5 - Livello Logico Digitale/Elementi di memoria in una Rete Logica.md",
+    "cap5 - Livello Logico Digitale/Reti logiche sequenziali.md",
+    "cap5 - Livello Logico Digitale/Reti Sequenziali Sincrone.md",
+    "cap5 - Livello Logico Digitale/Reti logiche combinatorie.md",
+    "cap6 - Memorie e Cache/Prestazioni e accesso alla memorie.md",
+    "cap6 - Memorie e Cache/Memorie a semiconduttore.md",
+    "pic/Screenshot 2025-09-15 alle 11.58.10.png",
+    "pic/Screenshot 2025-09-15 alle 11.54.07.png",
+    "Screenshot 2025-09-15 alle 11.53.00.png",
+    "pic/Screenshot 2025-09-12 alle 11.57.39.png",
+    "pic/Screenshot 2025-09-12 alle 11.46.31.png",
+    "pic/Screenshot 2025-09-12 alle 11.40.33.png",
+    "pic/Screenshot 2025-09-11 alle 11.58.49.png",
+    "pic/Screenshot 2025-09-11 alle 11.23.30.png",
+    "pic/Screenshot 2025-09-11 alle 11.17.02.png",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "cap8",
+    "cap7 - Microarchitetture avanzate",
+    "cap6 - Memorie e Cache",
+    "cap5 - Livello Logico Digitale",
+    "cap4 - Algebra e logica Binaria",
+    "cap3 - Funzionamento del BUS",
+    "Schede I",
+    "cap2 - Organizzazione dei Sistemi di Calcolo",
+    "pic"
+  ]
+}
