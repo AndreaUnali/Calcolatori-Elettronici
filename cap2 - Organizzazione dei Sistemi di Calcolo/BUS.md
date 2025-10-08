@@ -1,6 +1,6 @@
 Il BUS è una struttura di interconnessione basata sulla condivisione, è composto da **Linee** che collegano 2 o più moduli/dispositivi.
 
-``importante dire LINEE, non sono fili o cavi ne collegamenti magici, sono linee stampate su circuito (se proprio no ti biazzi linee puoi dire Piste)``
+``importante dire LINEE, non sono fili o cavi ne collegamenti magici, sono linee stampate su circuito (se proprio non ti piace linee puoi dire Piste)``
 
 Solo un dispositivo alla volta può essere abilitato a usare il BUS, riguardo ciò abbiamo 2 tipi di trasmissioni a BUS:
 - Trasmissioni a Bus Seriali
@@ -15,8 +15,14 @@ In un moderno calcolatore abbiamo:
 - **BUS Esterni**: collegano più moduli
 
 
-``è ovvio che sta definizione lascia il tempo che trova dato che è molto dipendente dalla definizione di "singolo mudulo", le memorie sono un singolo modulo? anche se composte fisicamente da blocchi diversi? e i bus che collegano le memorie che so? scemi? non facciamoci troppe seghe mentali e cerchiamo di capire quando stiamo parlando di BUS interni / esterni in base al contesto ``
+``è ovvio che questa definizione lascia il tempo che trova dato che è molto dipendente dalla definizione di "singolo mudulo", le memorie sono un singolo modulo? anche se composte fisicamente da blocchi diversi? e i bus che collegano le memorie come li consideriamo? non facciamoci troppe seghe mentali e cerchiamo di capire quando stiamo parlando di BUS interni / esterni in base al contesto ``
 Vedremo un approfondimento nella nota [[BUS - Approfondimento|BUS - Approfondimento]]
+
+**Come si valutano le prestazioni di un BUS?**
+1. Velocità di trasferimento
+2. Numero di bit (la larghezza del BUS)
+
+Inoltre sono estremamente dipendenti dal tipo di circuiteria di controllo (generalmente basati sul [[Introduzione alle Memorie|tri-state buffer]])
 
 ## Schema Logico di Un BUS
 

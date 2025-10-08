@@ -11,7 +11,7 @@ Perchè parliamo di ciclo? Nello specifico ci stiamo riferendo al [[Ciclo Fetch-
 
 ### Esecuzione 
 In questo caso abbiamo un **Set prestabilito di istruzioni** e vengono direttamente eseguite dall'hardware.
--  È un approccio complesso 
+- È un approccio complesso 
 - Le istruzioni possibili sono limitate
 - L'esecuzione è molto più efficiente
 
@@ -39,4 +39,4 @@ Vantaggi:
 - Facile aggiungere nuove istruzioni
 
 
-**Prossimo Argomento —————————>>** [[Parallelismo e i suoi tipi]] 
+**Prossimo Argomento —————————>>** [[Principi di progettazione, Focus sul Parallelismo]] 

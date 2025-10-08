@@ -5,9 +5,9 @@
 Dal 1970 fino agli anni 2000 è stata quasi rispettata, il numero di  transistor su singolo chip sono **raddoppiati ogni 18 mesi**
 
 **cosa comporta l'aumento dei transistor:**
-- + [[Analisi delle Prestazioni |prestazioni]]
-- - consumo di potenza
-- + affidabilità
+- \+ [[Analisi delle Prestazioni |prestazioni]]
+- \- consumo di potenza
+- \+ affidabilità
 - Prezzo costante (dipendente dai prezzi venduti; aumenta la scala produttiva )
 
 ## Legge di Nathan

@@ -10,3 +10,7 @@
 - Istruzioni prevalentemente su registri. 
 - Un’istruzione per ciclo di macchina (del data path).
 
+```
+Le architetture RISC sono caratterizzate dalla disponibilità di grandi quantità di registri. Al contrario delle Architetture CISC che dispongono di registri limitati.
+```
+

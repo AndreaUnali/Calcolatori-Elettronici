@@ -9,6 +9,7 @@ Attualmente possiamo distinguere 5 diversi tipi di paradigmi da perseguire in fa
 
 3. **Semplificare la decodifica delle istruzioni** 
 	-  Rendere le istruzioni regolari, di lunghezza fissa, pochi campi.
+	     - in questo modo la decodifica avrà meno variabili, ergo più semplice
 
 4. **Limitare i riferimenti alla memoria (solo LOAD e STORE)** 
 	- L’accesso alla memoria richiede tempo.
@@ -53,7 +54,7 @@ Il Thread che è attualmente in esecuzione esegue 2 istruzioni per ciclo fino a 
 
 ![[Screenshot 2025-08-17 alle 18.46.29.png]]
 
-**L'obbiettivo è quello di tenere la CPUPerennemente impegnata** 
+**L'obbiettivo è quello di tenere la CPUP perennemente impegnata** 
 
 ### Parallelismo a livello della [[CPU]]
 Per avere guadagni fino a 2 ordini di grandezza è necessario utilizzare più processori simultaneamente, anche in questo caso abbiamo 2 vie:

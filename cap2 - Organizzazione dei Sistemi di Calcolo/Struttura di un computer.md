@@ -4,13 +4,19 @@ La base della struttura è costituita dalla [[Scheda Madre]] sulla quale troviam
 	- Spesso sono presenti piu BUS secondo diversi standard
 - Le [[Schede IO]]
 
+## Definizione di Computer
+
+```
+Macchina organizzata, composta da una serie di dispositivi elettronici che può risolvere problemi esegiendo delle istruzioni da un insieme predefinito
+```
+
 
 ![[IMG_0523.jpg]]
 ### Strutture di Interconnessione 
 L'insieme dei componenti all'interno di un computer necessitano di comunicare tra loro, e per farlo usano dei "canali" ad HOC chiamati **strutture di interconnessione**.
 
 Le caratteristiche della *struttura di interconnessione* dipende dal tipo di dato che deve trasferire.
-Moduli I/O trasferiranno tipi di dato diversi rispetto alla [[CPU]] o alle [[Memorie]]
+[[Moduli I/O]] trasferiranno tipi di dato diversi rispetto alla [[CPU]] o alle [[Memorie]]
 
-La struttura di Interconnessione più importante è la **Interconnessione a [[cap2 - Organizzazione dei Sistemi di Calcolo/BUS]]**
+La struttura di Interconnessione più importante è la **Interconnessione a [[cap2 - Organizzazione dei Sistemi di Calcolo/BUS|BUS]]**
 
