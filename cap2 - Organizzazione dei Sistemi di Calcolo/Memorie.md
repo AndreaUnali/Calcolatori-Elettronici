@@ -1,11 +1,16 @@
-
-La memoria centrale è quella che chiamiamo tipicamente RAM, è dove operano i processi e il sistema operativo stesso.
+La **memoria central**e è quella che chiamiamo tipicamente RAM, è dove operano i processi e il sistema operativo stesso.
 Difatti contiene sia dati che programmi.
 
 - **Cella**: minima unità di memoria indirizzabile
 - **Word**: insieme di celle consecutive (insieme K di Byte)
 - **Indirizzo**: nome identificativo della cella
 	- **Spazio di indirizzamento**: una volta scelto quanti bit usare per generare indirizzi abbiamo $2^m$  (*m* numero di bit) indirizzi possibili (quindi $2^m$ celle indirizzabili)
+
+Abbiamo 2 modi per salvare le parole in memoria:
+- [>] **Little Endian**: Byte più significativo a destra
+	- Il più utilizzato (incentivato da Intel)
+- [>] **BIG Endian**: Byte più Byte più significativo a sinistra.
+	- più comodo per la lettura di stringhe (promosso da IBM) 
 
 ### Vari tipi di schede di memoria
 - **SIMM (Single Inline Memory Module)**
@@ -58,9 +63,9 @@ L'esistenza della cache è dovuta al fatto che **la Memoria centrale è sempre p
 La cache opera alla stessa velocità del processore in modo da compensare i ritardi della memoria centrale, contiene le ultime locazioni di memoria a cui è stato eseguito l'accesso,![[Screenshot 2025-08-18 alle 18.02.24.png]]
 In questo modo quando la CPU richiede un indirizzo passa prima per la Cache, se è presente si evita un accesso alla memoria altrimenti si prosegue con il percorso *tradizionale*.
 
-- **Cache hit** = il dato che cerchi è già nella cache → velocissimo 🚀 
+- **Cache hit** = il dato che cerchi è già nella cache → velocissimo 
 
-- **Cache miss** = il dato non c’è nella cache → tocca prenderlo dalla memoria lenta 🐌  
+- **Cache miss** = il dato non c’è nella cache → tocca prenderlo dalla memoria lenta 
 
 
 Quando leggi la **stessa parola k volte di fila**:  

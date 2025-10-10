@@ -16,7 +16,7 @@ In questo caso abbiamo un **Set prestabilito di istruzioni** e vengono direttame
 - L'esecuzione è molto più efficiente
 
 ### Interpretazione
-In questo caso l'hardware esegue poche istruzioni elementari dette **micro-istruzioni**. Le istruzioni che usiamo nel nostro progetto possono essere scomposte in tante microistruzioni.
+In questo caso l'hardware esegue poche istruzioni elementari dette **micro-istruzioni**. Le istruzioni che usiamo nel nostro progetto vengono scomposte da un **decoder** in tante microistruzioni.
 Questo paradigma permette
 - repertorio di istruzioni più esteso 
 - Hardware più compatto (meno dispendio economico)

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cap2 - Organizzazione dei Sistemi di Calcolo/Pipeling.md",
+                "file": "note a margine/Algoritmi di rilevamento dell'errore- Hamming.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Pipeling"
+              "title": "Algoritmi di rilevamento dell'errore- Hamming"
             }
           }
         ]
@@ -195,9 +195,12 @@
   },
   "active": "e55abb197e418214",
   "lastOpenFiles": [
+    "cap2 - Organizzazione dei Sistemi di Calcolo/Memorie.md",
+    "Architetture Multiscalari.md",
+    "cap2 - Organizzazione dei Sistemi di Calcolo/Principi di progettazione, Focus sul Parallelismo.md",
+    "cap2 - Organizzazione dei Sistemi di Calcolo/Pipeling.md",
     "cap2 - Organizzazione dei Sistemi di Calcolo/Architetture CISC e RISC.md",
     "cap2 - Organizzazione dei Sistemi di Calcolo/BUS.md",
-    "cap2 - Organizzazione dei Sistemi di Calcolo/Memorie.md",
     "cap6 - Memorie e Cache/Introduzione alle Memorie.md",
     "cap3 - Funzionamento del BUS/BUS - Approfondimento.md",
     "cap2 - Organizzazione dei Sistemi di Calcolo/Struttura di un computer.md",
@@ -221,9 +224,6 @@
     "cap5 - Livello Logico Digitale/Elementi di memoria in una Rete Logica.md",
     "cap5 - Livello Logico Digitale/Reti logiche sequenziali.md",
     "cap5 - Livello Logico Digitale/Reti Sequenziali Sincrone.md",
-    "cap5 - Livello Logico Digitale/Reti logiche combinatorie.md",
-    "cap6 - Memorie e Cache/Prestazioni e accesso alla memorie.md",
-    "cap6 - Memorie e Cache/Memorie a semiconduttore.md",
     "pic/Screenshot 2025-09-15 alle 11.58.10.png",
     "pic/Screenshot 2025-09-15 alle 11.54.07.png",
     "Screenshot 2025-09-15 alle 11.53.00.png",

@@ -31,6 +31,8 @@ Ad oggi il paradigma migliore (e più diffuso) per massimizzare le prestazioni �
 
 Uno dei più importanti metodi per implementare il parallelismo è la [[Pipeling]] (anche quello che vediamo meglio), vediamo adesso altri tipi di parallelismo, meno importanti rispetto alla pipeline ma pur sempre degni di nota.
 
+- [*] Un altro paradigma molto utilizzato sono le [[Architetture Multiscalari]]
+
 ### Architetture Superscalari
 
 In queste architetture si avviano più istruzioni (4-6 contemporaneamente). Ognuna di esse con una propria [[Pipeling|Pipeline]].
@@ -48,13 +50,19 @@ Viene duplicato solo lo stadio più lento.
 - Architettura adottata nei processori Intel Core.
 
 ### Parallelismo mediante Multithreading
-Più Thread vengono eseguiti in maniera concorrente.
+Più Processi vengono eseguiti in maniera concorrente.
+Ho 2 opzioni:
+- [>]  **Grana fina**: Ogni processo ha a disposizione un quanto di tempo fisso per poi cedere il posto al Thread successivo
+	- In questo modo non ho stalli ma effettuo molti *context switch*, che è un operazione pesante per il sistema 
+- [>] **Grana grossa**: Cambio processo quando quest'ultimo si interrompe (perchè ha finito o ha una fase di stallo), o se raggiunge un quanto di tempo massimo.
+	- Effettuo pochi context switch ma presenta *stalli* dato che devo attendere un operazione *nop* per sapere quando passare al prossimo processo
+
 Il Thread che è attualmente in esecuzione esegue 2 istruzioni per ciclo fino a quando non raggiunge uno stallo, in quel caso si passa al Thread successivo.
 
 
 ![[Screenshot 2025-08-17 alle 18.46.29.png]]
 
-**L'obbiettivo è quello di tenere la CPUP perennemente impegnata** 
+**L'obbiettivo è quello di tenere la CPU perennemente impegnata** 
 
 ### Parallelismo a livello della [[CPU]]
 Per avere guadagni fino a 2 ordini di grandezza è necessario utilizzare più processori simultaneamente, anche in questo caso abbiamo 2 vie:
@@ -68,4 +76,5 @@ Diversi processori eseguono diversi task
 
 
 **Prossimo argomento —————————>>** [[Memorie]]
+
 
