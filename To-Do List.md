@@ -1,6 +1,6 @@
 - [*] **cap2**
-	- [ ] Moduli I/O da slide
-	- [ ] Vedere moduli I/O da libro
+	- [x] Moduli I/O da slide
+	- [x] Vedere moduli I/O da libro
 	- [ ] Pipeline da libro
 	- [ ] Bus PC da libro
 	- [ ] Arbitraggio del BUS da slide

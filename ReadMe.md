@@ -20,11 +20,11 @@ I file sono interconnessi tramite **link interni Obsidian**, per rendere la navi
 
   
 
-## **💡 Come usarli**
+## **Come usarli**
 
   
 
-### **✅ Metodo consigliato: Obsidian**
+### Metodo consigliato: Obsidian
 
 1. Scarica o clona il repository:
 
@@ -34,32 +34,23 @@ git clone https://github.com/<tuo-username>/<nome-repo>.git
 2. Apri **Obsidian** → “Open folder as vault” → seleziona la cartella del repo.
     
 3. Usa la **vista grafica** (Ctrl + G o Cmd + G) per esplorare i collegamenti tra le note.
+
+4. Periodicamente aggiorna la tua repository locale per stare al passo con le integrazioni
     
-
+   `git pull original main`
   
 
-> ⚠️ Non è presente un indice principale: la navigazione avviene tramite i link tra le note.
+> !! Non è presente un indice principale: la navigazione avviene tramite i link tra le note. !!
 
   
+- [i] Nello specifico uso il *community theme* "Things" per avere più tipi di bullet 
 
-### ** Metodo alternativo: qualsiasi editor Markdown**
-
-  
-
+### Metodo alternativo: qualsiasi editor Markdown
 Puoi comunque leggere i file .md con qualsiasi editor (VS Code, Typora, ecc.), ma perderai:
 
 - i collegamenti automatici tra note
     
 - la visualizzazione grafica della rete di concetti
-    
-
-  
-
-## **Struttura del repository**
-
-- Appunti/ → cartella principale con le note in Markdown
-    
-- Risorse/ → eventuali immagini, schemi o approfondimenti
     
 
   

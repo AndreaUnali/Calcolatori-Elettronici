@@ -7,6 +7,8 @@ Iniziando dalle basi, come già detto tale quale in precedenza possiamo constata
 - **Un calcolatore elettronico può essere sinteticamente visto come un insieme di unità funzionali interconnesse tra loro mediante un BUS**
 ![[Screenshot 2025-08-19 alle 16.45.10.png]]
 
+Tutti i BUS hanno una propria velocità, quelli sincroni sono scanditi dal clock.  Quelli asincroni dipendono dalla frequenza della corrente che li attraversa, che viene a sua volta influenzata dalla circuiteria a monte e a valle del BUS.
+
 - **In un moderno calcolatore esistono:**
 	- **BUS interni (data path)**, confinati all’interno di una singola unità funzionale, e che collegano i blocchi funzionali contenuti nell’unità.
 	- **BUS esterni,** che si estendono all’esterno dell’unità funzionale, e che la collegano alle altre unità funzionali. I BUS esterni del calcolatore sono solitamente standardizzati![[Screenshot 2025-08-19 alle 16.47.49.png]]
@@ -17,13 +19,25 @@ Iniziando dalle basi, come già detto tale quale in precedenza possiamo constata
 - Linee indirizzo: dimensione dello spazio (di memoria) indirizzabile: 
 	- con n bit di indirizzo 2n locazioni.
 - Ampliando le linee dati aumenta la velocità di trasmissione: banda di trasferimento. 
-- **Condivisione** di più segnali sulla stessa linea (multiplexing) per diminuire i costi.
+- **Condivisione** di più segnali sulla stessa linea (*multiplexing*) per diminuire i costi.
+	- Il **Multiplexing** consiste nell'utilizzo delle stesse linee per diversi tipi di segnali a seconda della situazione, questo permette un grosso risparmio.
 	- ==Problema==: al crescere della velocità del bus aumenta il 
 		**BUS skew** (differenza nella velocità di propagazione dei segnali su linee diverse).
 
 ``Da adesso in poi quanto dirò 
 	Segnale basso = 0
 	Segnale alto. = 1  ``
+
+
+## Terminologia
+Per evitare confusione si parla di:
+- *Segnale asserito:* quando assume il valore (alto o basso) che provoca l’azione. 
+- *Segnale negato:* altrimenti.
+
+**Si adotta la seguente notazione:**
+S : segnale che è asserito alto.
+$\overline S$: segnale che è asserito basso. 
+S# : segnale che è asserito basso in contesto Intel.
 
 
 Passiamo alle cose interessanti andando a parlare dell' [[Arbitraggio del BUS]], per vedere come viene gestito il suo utilizzo e la [[Temporizzazione del BUS]] per vederne il suo funzionamento
