@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cap3 - Funzionamento del BUS/BUS - Approfondimento.md",
+                "file": "ReadMe.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "BUS - Approfondimento"
+              "title": "ReadMe"
             }
           }
         ],
@@ -118,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 332.5
   },
   "right": {
     "id": "18815c83a5f95315",
@@ -211,20 +211,27 @@
   },
   "active": "e4052a2316d550f6",
   "lastOpenFiles": [
-    "cap2 - Organizzazione dei Sistemi di Calcolo/Schede IO.md",
-    "Screenshot 2025-10-15 alle 12.14.40.png",
-    "ReadMe.md",
+    "note a margine/Scheda Madre.md",
+    "note a margine/Architetture Multiscalari.md",
+    "cap6 - Memorie e Cache/Principio di Località e Gerarchie.md",
+    "cap6 - Memorie e Cache/Prestazioni e accesso alla memorie.md",
+    "cap6 - Memorie e Cache/Parametri della Cache.md",
+    "cap6 - Memorie e Cache/Memorie a semiconduttore.md",
+    "cap6 - Memorie e Cache/Mappatura della Cache.md",
+    "cap6 - Memorie e Cache/Introduzione alle Memorie.md",
+    "cap6 - Memorie e Cache/CACHE.md",
     "To-Do List.md",
+    "cap3 - Funzionamento del BUS/BUS - Approfondimento.md",
+    "cap2 - Organizzazione dei Sistemi di Calcolo/Schede IO.md",
+    "pic/Screenshot 2025-10-15 alle 12.14.40.png",
+    "ReadMe.md",
     "pic/Screenshot 2025-10-15 alle 11.25.53.png",
     "cap2 - Organizzazione dei Sistemi di Calcolo/Memorie.md",
     "note a margine/Algoritmi di rilevamento dell'errore- Hamming.md",
-    "Architetture Multiscalari.md",
     "cap2 - Organizzazione dei Sistemi di Calcolo/Principi di progettazione, Focus sul Parallelismo.md",
     "cap2 - Organizzazione dei Sistemi di Calcolo/Pipeling.md",
     "cap2 - Organizzazione dei Sistemi di Calcolo/Architetture CISC e RISC.md",
     "cap2 - Organizzazione dei Sistemi di Calcolo/BUS.md",
-    "cap6 - Memorie e Cache/Introduzione alle Memorie.md",
-    "cap3 - Funzionamento del BUS/BUS - Approfondimento.md",
     "cap2 - Organizzazione dei Sistemi di Calcolo/Struttura di un computer.md",
     "Untitled.base",
     "cap1 - Introduzione/Leggi di Moore e Nathan.md",
@@ -233,14 +240,8 @@
     "cap1 - Introduzione/Analisi delle Prestazioni.md",
     "cap2 - Organizzazione dei Sistemi di Calcolo/CPU.md",
     "cap2 - Organizzazione dei Sistemi di Calcolo/Ciclo Fetch-decode-execute.md",
-    "note a margine/Legge di Amdahl.md",
-    "note a margine/accoppiamento lasco.md",
-    "note a margine/Leggi di Karnaugh.md",
-    "note a margine/Performance Gap.md",
-    "note a margine/SIMD.md",
     "Untitled",
     "pic/LeggeAmdahl copia.png",
-    "cap5 - Livello Logico Digitale/Elementi di memoria in una Rete Logica.md",
     "pic/Screenshot 2025-09-15 alle 11.58.10.png",
     "pic/Screenshot 2025-09-15 alle 11.54.07.png",
     "Screenshot 2025-09-15 alle 11.53.00.png",

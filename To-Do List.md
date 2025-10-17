@@ -5,7 +5,8 @@
 	- [ ] Bus PC da libro
 	- [ ] Arbitraggio del BUS da slide
 	- [ ] Arbitraggio del BUS da Libro
-	      
+	- [ ] Inizio Interrupt
+	- [ ] Daisy chain
 
 - [*] **cap3**
 	- [x]  tri-state buffer

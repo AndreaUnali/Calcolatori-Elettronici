@@ -29,7 +29,7 @@ I file sono interconnessi tramite **link interni Obsidian**, per rendere la navi
 1. Scarica o clona il repository:
 
 ```
-git clone https://github.com/<tuo-username>/<nome-repo>.git
+git clone https://github.com/AndreaUnali/Calcolatori-Elettronici
 ```
 2. Apri **Obsidian** → “Open folder as vault” → seleziona la cartella del repo.
     
