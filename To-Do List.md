@@ -3,15 +3,15 @@
 	- [x] Vedere moduli I/O da libro
 	- [ ] Pipeline da libro
 	- [ ] Bus PC da libro
-	- [ ] Arbitraggio del BUS da slide
+	- [x] Arbitraggio del BUS da slide
 	- [ ] Arbitraggio del BUS da Libro
-	- [ ] Inizio Interrupt
+	- [x] Inizio Interrupt
 	- [ ] Daisy chain
 
 - [*] **cap3**
 	- [x]  tri-state buffer
-	- [ ] vedere i ritardi nella sincronizzazione del BUS
-	- [ ] 
+	- [x] vedere i ritardi nella sincronizzazione del BUS
+	- [ ] dare uno sguardo a PCI Express
 
 - [*] **cap4**
 

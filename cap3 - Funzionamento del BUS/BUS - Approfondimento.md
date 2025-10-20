@@ -11,7 +11,7 @@ Tutti i BUS hanno una propria velocità, quelli sincroni sono scanditi dal clock
 
 - **In un moderno calcolatore esistono:**
 	- **BUS interni (data path)**, confinati all’interno di una singola unità funzionale, e che collegano i blocchi funzionali contenuti nell’unità.
-	- **BUS esterni,** che si estendono all’esterno dell’unità funzionale, e che la collegano alle altre unità funzionali. I BUS esterni del calcolatore sono solitamente standardizzati![[Screenshot 2025-08-19 alle 16.47.49.png]]
+	- **BUS esterni,** che si estendono all’esterno dell’unità funzionale, e che la collegano alle altre unità funzionali. I BUS esterni del calcolatore sono solitamente standardizzati![[Screenshot 2025-08-19 alle 16.47.49.png#invert]]
 ``Qua sembrerebbe la stessa definizione discussa nella nota precedente in cui parlavo del BUS ma c'è un dettaglio che cambia le cose ossia nominare i BUS interni come datapath, in elettronica come già sappiamo il datapath è l'insieme di tutti i componenti che svolgono calcoli ma non mutiano il comportamento del sistema.``
 
 

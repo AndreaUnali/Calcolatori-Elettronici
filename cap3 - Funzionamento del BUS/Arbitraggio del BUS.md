@@ -22,7 +22,7 @@ Abbiamo 2 tipi di meccanismi principali:
 - Arbitraggio **distribuito**
 
 ## Arbitraggio centralizzato
-Per l'arbitraggio centralizzato (o *daisy chain*) abbiamo 3 regole fondamentali:
+Per l'arbitraggio centralizzato (o [[daisy chain]]) abbiamo 3 regole fondamentali:
 
 1. È presente un unità funzionale dedita all'arbitraggio (per questo centralizzato)
 2. Alcune linee del BUS sono dedite a trasmettere le richieste delle unità funzionali all'arbitro.
@@ -43,6 +43,8 @@ Come possiamo vedere abbiamo 2 linee per il controllo del BUS, una da destra ver
 
 È possibile rendere più flessibile questo meccanismo aumentando il numero di linee request (richiesta del bus) e grant (conferma da parte dell'arbitro). Assegnando una scala di priorità alle varie linee.
 ![[Screenshot 2025-08-19 alle 17.39.06.png#invert]]
+
+Se abbiamo più linee che chiedono contemporaneamente il BUS, l'arbitro darà il grant alla linea con priorità più alta che ha effettuato la richiesta. (Ha senso se linee di richiesta diverse sono collegate a dispositivi diversi)
 
 ### BUS Acknowledge
 È possibile migliorare ulteriormente questo meccanismo introducendo i concetto di **accettazione** .
