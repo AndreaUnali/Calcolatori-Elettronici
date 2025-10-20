@@ -10,17 +10,17 @@ Vengono connesse al BUS tramite una circuiteria chiamata **device controller**, 
 ### Moduli Input/output
 
 Si occupano di fare da ponte tra le interfacce e il BUS di sistema, credo siano quelli che abbiamo precedentemente chiamato *device controller*.
-![[Screenshot 2025-08-18 alle 19.08.06.png]]
+![[Screenshot 2025-08-18 alle 19.08.06.png#invert]]
 #### Struttura Logica
-![[Screenshot 2025-08-19 alle 15.46.51.png]]
+![[Screenshot 2025-08-19 alle 15.46.51.png#invert]]
 
 ## Modalità di I/O
 
 ### 1. I/O programmato
 In questo caso la CPU si occupa di controllare la totalità delle operazioni, mediante l'esecuzione diretta di istruzioni di I/O.
 
-| In questa immagine possiamo vedere il flusso di lavoro nel caso di I/O programmato.<br><br>Tutte le istruzioni del flusso vengono eseguite dalla CPU, e devono essere incluse esplicitamente nelle istruzioni del programma.<br><br>si puo notare che abbiamo al termine abbiamo un ciclo di polling per verificare se abbiamo o no terminato l'esecuzione del programma. | ![[Screenshot 2025-10-15 alle 11.25.53.png]] |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| In questa immagine possiamo vedere il flusso di lavoro nel caso di I/O programmato.<br><br>Tutte le istruzioni del flusso vengono eseguite dalla CPU, e devono essere incluse esplicitamente nelle istruzioni del programma.<br><br>si puo notare che abbiamo al termine abbiamo un ciclo di polling per verificare se abbiamo o no terminato l'esecuzione del programma. | ![[Screenshot 2025-10-15 alle 11.25.53.png#invert]] |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 
 ### 2. I/O pilotato da Interrupt
 
@@ -78,4 +78,4 @@ Quattro tipi di **pacchetti**:
 3. **Handshake**: ACK/NACK (acknowledge o errore)
 4. **Speciali**: vedi foto
 
-![[Screenshot 2025-10-15 alle 12.14.40.png]]
+![[Screenshot 2025-10-15 alle 12.14.40.png#invert]]

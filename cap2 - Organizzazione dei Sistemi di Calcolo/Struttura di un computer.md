@@ -11,7 +11,7 @@ Macchina organizzata, composta da una serie di dispositivi elettronici che può 
 ```
 
 
-![[IMG_0523.jpg]]
+![[IMG_0523.jpg#invert]]
 ### Strutture di Interconnessione 
 L'insieme dei componenti all'interno di un computer necessitano di comunicare tra loro, e per farlo usano dei "canali" ad HOC chiamati **strutture di interconnessione**.
 

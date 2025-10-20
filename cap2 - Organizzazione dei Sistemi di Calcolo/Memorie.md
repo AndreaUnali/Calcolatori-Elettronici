@@ -48,7 +48,7 @@ Andando verso il basso:
 - **Diminuisce** il **costo** per bit
 
 
-![[Screenshot 2025-08-18 alle 17.46.49.png]]
+![[Screenshot 2025-08-18 alle 17.46.49.png#invert]]
 **I registri sono l'unico livello a diretto contatto con la CPU**
 
 
@@ -60,7 +60,7 @@ Andando verso il basso:
 Come possiamo vedere dallo schema delle Gerarchie della memoria prima della nostra Memoria centrale troviamo un altro stadio, la Cache, ovviamente i registri non li consideriamo neanche dato che come detto prima sono a diretto contatto con la CPU (oserei dire che ne fanno quasi parte, difatti quando si compra un processore i registri sono gia al suo interno e non è possibile cambiarli o aumentarli).
 
 L'esistenza della cache è dovuta al fatto che **la Memoria centrale è sempre più lenta della [[CPU]]**.
-La cache opera alla stessa velocità del processore in modo da compensare i ritardi della memoria centrale, contiene le ultime locazioni di memoria a cui è stato eseguito l'accesso,![[Screenshot 2025-08-18 alle 18.02.24.png]]
+La cache opera alla stessa velocità del processore in modo da compensare i ritardi della memoria centrale, contiene le ultime locazioni di memoria a cui è stato eseguito l'accesso,![[Screenshot 2025-08-18 alle 18.02.24.png#invert]]
 In questo modo quando la CPU richiede un indirizzo passa prima per la Cache, se è presente si evita un accesso alla memoria altrimenti si prosegue con il percorso *tradizionale*.
 
 - **Cache hit** = il dato che cerchi è già nella cache → velocissimo 

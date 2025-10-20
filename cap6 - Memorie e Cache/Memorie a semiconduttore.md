@@ -57,7 +57,7 @@ Ad ogni scrittura si devono riportare tutte le celle allo stato iniziale mediant
 
 
 
-![[Screenshot 2025-09-15 alle 11.54.07.png]]
+![[Screenshot 2025-09-15 alle 11.54.07.png#invert]]
 
 ### EEPROM
 Le **EEPROM** (Electrically Erasable Programmable Read-Only Memory) sono memorie non volatili che mantengono i dati anche senza alimentazione. Si possono cancellare e riscrivere elettricamente, byte per byte, a differenza delle EPROM che richiedono luce UV. Sono usate per memorizzare dati persistenti come configurazioni o firmware.

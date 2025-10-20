@@ -1,5 +1,5 @@
 La CPU è colei che si occupa di gestire l'intera struttura del sistema ed è responsabile di tutte le operazioni aritmetiche e logiche sui dati contenuti nei registri.
-![[Screenshot 2025-08-17 alle 15.14.46.png]]
+![[Screenshot 2025-08-17 alle 15.14.46.png#invert]]
 Un **ciclo elementare** da prendere come esempio può essere:
 - due operandi sono inviati alla ALU
 - la ALU li somma

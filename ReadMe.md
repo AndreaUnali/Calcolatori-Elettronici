@@ -43,7 +43,7 @@ git clone https://github.com/AndreaUnali/Calcolatori-Elettronici
 > !! Non è presente un indice principale: la navigazione avviene tramite i link tra le note. !!
 
   
-- [i] Nello specifico uso il *community theme* "Things" per avere più tipi di bullet 
+- [i] Nello specifico uso il *community theme* "Cupertino" per avere più tipi di bullet, e l'inversione automatica delle immagini in modalità scura (ci sono anche altri temi che permettono l'uso di altri bullet point) 
 
 ### Metodo alternativo: qualsiasi editor Markdown
 Puoi comunque leggere i file .md con qualsiasi editor (VS Code, Typora, ecc.), ma perderai:

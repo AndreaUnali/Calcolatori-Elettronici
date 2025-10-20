@@ -10,8 +10,8 @@ Adesso vediamo diversi tipi di Latch in ordine di complessità.
 ### Latch Set-Reset (SR)
 È un latch asincrono (privo di clock) ed è il lath più semplice che possiamo implementare
 
-![[Screenshot 2025-08-25 alle 14.50.17.png]]
-![[Screenshot 2025-08-25 alle 14.50.40.png]]
+![[Screenshot 2025-08-25 alle 14.50.17.png#invert]]
+![[Screenshot 2025-08-25 alle 14.50.40.png#invert]]
 Il modo più facile per capire la logica secondo me è:
 1. Se R = 0 abbiamo S in uscita
 2. Se R = 1 abbiamo sempre 0 in uscita
@@ -21,7 +21,7 @@ Il modo più facile per capire la logica secondo me è:
 ## Latch SR Sincrono
 
 Vediamo adesso cosa succede se proviamo a rendere sincrono il circuito appena visto, collegando quindi un clock alla logica.
-![[Screenshot 2025-08-25 alle 14.54.42.png]]
+![[Screenshot 2025-08-25 alle 14.54.42.png#invert]]
 La logica rimane identica l'unica differenza è che le uscite cambiano solo in corrispondenza di fronti di salita del clock.
 
 ## Latch JK
@@ -30,20 +30,20 @@ Per quanto riguarda la logica, è identico a un latch SR con la differenza che p
 In questo caso particolare (con i due ingressi uguali a 1) avremo in uscita il risultato dell'istante precedente invertito.
 
 Vediamo che per realizzare il circuito ci basta collegare alle 2 AND iniziali l'uscita del LATCH.
-![[Screenshot 2025-08-25 alle 14.57.37.png]]
-![[Screenshot 2025-08-25 alle 15.01.20.png]]
+![[Screenshot 2025-08-25 alle 14.57.37.png#invert]]
+![[Screenshot 2025-08-25 alle 15.01.20.png#invert]]
 
 
 ## Altri tipi di Latch
 
 Abbiamo ovviamente altri tipi di Latch, per vederne 2 in più lascio questo contributo da cui è possibile volendo ricavare l circuito.
-![[Screenshot 2025-08-25 alle 15.06.58.png]]
+![[Screenshot 2025-08-25 alle 15.06.58.png#invert]]
 
 ## Generatore di Impulsi
 
 Un generatore di impulsi è un piccolo circuito logico utile a simulare un clock.
 Il concetto di base è quello di generare un ritardo (nello specifico sfruttiamo il ritardo di un **inverter**) per creare dei segnali intermittenti.
-![[Screenshot 2025-08-25 alle 15.15.40.png]]
+![[Screenshot 2025-08-25 alle 15.15.40.png#invert]]
  Nel diagramma in figura l’inverter induce un ritardo  $\Delta$ che permette alla rete di cambiare il proprio stato. 
  La durata $\Delta$ dell’impulso equivale al ritardo dell’inverter.
 
@@ -73,7 +73,7 @@ Funzionano alternati, grazie al segnale di **clock**:
 - Quando il **clock è alto** → il master legge l’ingresso, lo slave è bloccato.  
 
 - Quando il **clock è basso** → il master si blocca e lo slave prende il valore dal master.  
-![[Screenshot 2025-08-25 alle 15.24.32.png]]
+![[Screenshot 2025-08-25 alle 15.24.32.png#invert]]
   
 **Risultato:** l’uscita cambia **solo in corrispondenza del fronte di clock**, non in modo “sporco”.
 

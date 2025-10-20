@@ -2,8 +2,10 @@ In questo capitolo 6 andremo a studiare [[Reti logiche sequenziali]] note.
 ## Dispositivi a 3 Stati (tri-state-Buffer)
 
 È un dispositivo di controllo usato per la connessione al BUS e in generale per tutte le comunicazioni Bidirezionali. 
-Ha un segnale in input che rappresenta il dato e un secondo segnale in input che rappresenta invece il segnale di controllo. In base al segnale di controllo permette o meno il passaggio del dato.![[Screenshot 2025-09-12 alle 11.40.33.png]]
-
+Ha un segnale in input che rappresenta il dato e un secondo segnale in input che rappresenta invece il segnale di controllo. In base al segnale di controllo permette o meno il passaggio del dato.![[Screenshot 2025-09-12 alle 11.40.33.png#invert]]
+```
+Il canale dati deve essere bidirezionale, per permettere il passaggio da slave a maste (lettura), e da master a slave (scrittura). Questo nel caso di utilizzo del BUS.
+```
 ## Chip di Memoria
 Un **chip di memoria** è visto come una **matrice di celle** organizzate in **righe e colonne**.
 Per selezionare l'operazione da eseguire e le celle interessate usiamo 3 **segnali di controllo**:
@@ -12,7 +14,7 @@ Per selezionare l'operazione da eseguire e le celle interessate usiamo 3 **segna
 2. **OE (Output Enable)** → abilita l’uscita dei dati.
 3. **WE (Write Enable)** → stabilisce se scrivere o leggere.
 
-![[Screenshot 2025-09-12 alle 11.46.31.png]]
+![[Screenshot 2025-09-12 alle 11.46.31.png#invert]]
 
 Nelle **memorie dinamiche (DRAM)**, per ridurre il numero di piedini, l’indirizzo viene fornito in due parti:
 
@@ -29,7 +31,7 @@ Ogni chip fornisce solo **una parte della parola**:
 - ["]  Es. se un chip è largo **1 bit**, servono **n chip in parallelo** per memorizzare una parola di _n_ bit.
 
 ==Gli **indirizzi** sono condivisi da tutti i chip del banco → in questo modo la stessa posizione viene selezionata in ogni chip.==
-![[Screenshot 2025-09-12 alle 11.57.39.png]]
+![[Screenshot 2025-09-12 alle 11.57.39.png#invert]]
 
 I **segnali di controllo** possono invece essere sia **unificati** (in modo da attivare tutti i chip insieme), o **differenziati** (in modo da dividere il banco di memoria in più blocchi)
 

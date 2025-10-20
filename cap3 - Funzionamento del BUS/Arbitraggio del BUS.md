@@ -29,15 +29,20 @@ Per l'arbitraggio centralizzato (o *daisy chain*) abbiamo 3 regole fondamentali:
 3. È l'arbitro che realizza la cessione del controllo del BUS (cessione del ruolo MASTER)
 
 
-![[Screenshot 2025-08-19 alle 17.35.59.png]]
+![[Screenshot 2025-08-19 alle 17.35.59.png#invert]]
 Come possiamo vedere abbiamo 2 linee per il controllo del BUS, una da destra verso sinistra usata dalle unità funzionali per richiedere il ruolo di MASTER e una da sinistra a destra  che emette l'arbitro per assegnare il ruolo alla prima unità funzionale che incontra che ha fatto richiesta.
 
 ==`questo meccanismo avvantaggia le unità funzionali più vicine all'arbitro in questo modo introduce anche una logica di priorità.`==
 
+1. Ingresso `grant` asserito, lo propago agli altri componenti, a meno che abbia intenzione di chiedere il controllo del BUS
+2. Solo se ricevo un `grant` asserito sono in grado di effettuare una richiesta
+3. Il segnale `busy` ci dice se il BUS è disponibile (questo deve essere non asserito per permettere una richiesta).
+
+
 ### Arbitro centralizzato con richieste
 
-È possibile rendere più flessibile questo meccanismo aumentando il numero di linee request (richiesta del ruolo) e grant (conferma da parte dell'arbitro). Assegnando una scala di priorità alle varie linee.
-![[Screenshot 2025-08-19 alle 17.39.06.png]]
+È possibile rendere più flessibile questo meccanismo aumentando il numero di linee request (richiesta del bus) e grant (conferma da parte dell'arbitro). Assegnando una scala di priorità alle varie linee.
+![[Screenshot 2025-08-19 alle 17.39.06.png#invert]]
 
 ### BUS Acknowledge
 È possibile migliorare ulteriormente questo meccanismo introducendo i concetto di **accettazione** .
@@ -53,7 +58,7 @@ Come possiamo vedere abbiamo 2 linee per il controllo del BUS, una da destra ver
 4. A questo punto l’unità ha il controllo del BUS; le linee di richiesta e conferma sono libere, quindi un’altra unità può fare richiesta (che rimane in attesa).
     
 5. Quando la prima unità rilascia il BUS disattivando l’acknowledge, l’arbitro può confermare la richiesta alla prossima unità.
-![[6560A712-ACD5-443F-9F77-E97EB91DB9E1.png]]
+![[6560A712-ACD5-443F-9F77-E97EB91DB9E1.png#invert]]
 
 
 ## Arbitraggio distribuito 
@@ -64,7 +69,7 @@ Anche qui abbiamo delle regole che scandiscono la logica di questo meccanismo.
 3. Ogni unità può attivare **solo la propria linea di richiesta** del BUS.
 
 
-![[Screenshot 2025-08-19 alle 17.51.46.png]]
+![[Screenshot 2025-08-19 alle 17.51.46.png#invert]]
 **Come funziona:**
 Come possiamo vedere tutte le unità possono *parlare* alle altre mediante la propria linea e allo stesso tempo possono *ascoltare* le altre unità
 
@@ -75,8 +80,8 @@ Ogni unità per diventare master si assicura che unità di priorità superiore a
 ### Arbitraggio distribuito a 3 Linee
 Per migliorare l'arbitraggio distribuito è possibile implementarlo usan do solo 3 Linee:
 - **Impegno del BUS (BUS busy)**: questa linea viene mantenuta attiva dall’unità che detiene il controllo del BUS. 
--  **Conferma del BUS (BUS grant)**: è la linea di conferma, collegata a festone. 
+-  **Conferma del BUS (BUS grant)**: è la linea di conferma, collegata da un dispositivo all’,altro in *daisy chain.* 
 -  **Richiesta del BUS (BUS request)**: l’unità attiva questa linea per richiedere il BUS.
 
-![[Screenshot 2025-08-19 alle 17.58.25.png]]
+![[Screenshot 2025-08-19 alle 17.58.25.png#invert]]
 

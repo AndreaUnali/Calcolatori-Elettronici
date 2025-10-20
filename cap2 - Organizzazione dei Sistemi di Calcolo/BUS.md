@@ -27,7 +27,7 @@ Inoltre sono estremamente dipendenti dal tipo di circuiteria di controllo (gener
 ## Schema Logico di Un BUS
 
 Abbiamo appena descritto il BUS come un insieme di piste, vediamo ora che diverse piste possono essere di tipi diversi in base al tipo di dato che trasmettono.
-![[Screenshot 2025-08-17 alle 14.39.43.png]]
+![[Screenshot 2025-08-17 alle 14.39.43.png#invert]]
 Come è possibile vedere nell'immagine un singolo BUS può essere composto da 3 linee principali o sotto-BUS:
 
 ### Control BUS:

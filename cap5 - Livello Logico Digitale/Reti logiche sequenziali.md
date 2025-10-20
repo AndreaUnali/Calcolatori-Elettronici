@@ -3,7 +3,7 @@
 Le reti sequenziali proprio come le [[Reti logiche combinatorie | reti combinatorie]] sono caratterizzate da **N ingressi** e **M uscite**. A differenza di esse però *i valori dei segnali in uscita dipendono dagli ingressi assunti precedentemente*.
 Per far ciò hanno ovviamente bisogno di qualche [[Elementi di memoria in una Rete Logica| elemento di memoria]], e dato che la memoria è ovviamente limitata possono "*ricordare*" sono un numero finito di combinazioni di ingressi precedenti.
 **Esempio:**
-![[Screenshot 2025-08-24 alle 16.03.19.png]]
+![[Screenshot 2025-08-24 alle 16.03.19.png#invert]]
 Questa rete sequenziale realizza la sua memoria tramite retroazione, cosi è implementato l'elemento di memoria più semplice il **latch**.
 
 **Caratteristiche**
@@ -27,7 +27,7 @@ Facciamo degli esempi per capire meglio:
 ``Ho implementato una stupidissima rete logica che conta da 0 a 2 finche in ingresso ha 1 e ricomincia, se invece in ingresso ha 0 torna allo step precedente del conteggio (quando è a 0 rimane a zero finche in ingresso ha valore 0)``
 
 Vediamo le differenze tra Mealy e Moore
-![[digrammi mealy e mooore.drawio.png]]
+![[digrammi mealy e mooore.drawio.png#invert]]
 Giusto per capire, gli ingressi sono in verde, le uscite in arancione e gli stati i cerchi celesti e la lettera nera per differenziarli.
 
 ## Tabella di flusso e Tabella delle transizioni

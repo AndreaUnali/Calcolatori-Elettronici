@@ -14,7 +14,7 @@ D'altra parte una rete sequenziale può assumere uno stato ed esso influenza i v
 
 I circuiti integrati sono chip di silicio che racchiudono al loro interno moltissime porte logiche. A seconda della complessità si parla di SSI, MSI, LSI o VLSI. Oggi i processori moderni sono esempi di VLSI. Questi circuiti sono racchiusi in diversi package, come DIP, PGA e LGA
 
-![[Screenshot 2025-08-23 alle 19.48.43.png]]
+![[Screenshot 2025-08-23 alle 19.48.43.png#invert]]
 - Esistono diversi livelli di integrazione:
     
     - **SSI** (Small Scale): poche porte (1–10)
@@ -39,7 +39,7 @@ I circuiti integrati sono chip di silicio che racchiudono al loro interno moltis
 ### Comparatore
 
 Il comparatore è un circuito logico che confronta due stringhe di bit sfruttando l’operatore XOR. Restituisce un’uscita che segnala se i due valori sono uguali o diversi.
-![[Screenshot 2025-08-23 alle 19.51.04.png]]
+![[Screenshot 2025-08-23 alle 19.51.04.png#invert]]
 - Si basa sull’operatore **XOR** (esclusivo):
     
     - Se due bit sono uguali → l’uscita è 0.
@@ -58,7 +58,7 @@ Facciamo un esempio per capire meglio:
 2. Tramite il MUX ci basterà un bit di controllo ($S_0$) per scegliere quale segnale ascoltare.
 3. Ad esempio $S_0 = 0$ per ascoltare A e $S_0 = 1$ per ascoltare B.
 
-![[Screenshot 2025-08-24 alle 15.38.07.png]]
+![[Screenshot 2025-08-24 alle 15.38.07.png#invert]]
 **Per realizzare un MUX a 1 bit (di controllo) ci basterà:**
 1. Scrivere la tabella di verità
 2. Trovare la formula Minima tramite le **[[Leggi di Karnaugh]]**
@@ -67,7 +67,7 @@ Facciamo un esempio per capire meglio:
 
 #### Multiplexer a 2 bit
 Dati due bit di controllo S0 ed S1 per selezionare l’uscita Y è sufficiente effettuare l’**AND** di ogni ingresso con la configurazione di selezione corrispondente e porre tutte le Multiplexer 4-1 uscite in **OR**.
-![[Screenshot 2025-08-24 alle 15.43.44.png]]
+![[Screenshot 2025-08-24 alle 15.43.44.png#invert]]
 
 #### Utilizzo del Multplexer
 Un **multiplexer (MUX)** non serve solo a selezionare quale segnale mandare in uscita tra più sorgenti, ma può anche essere utilizzato per condividere una stessa linea di trasmissione o scegliere un comando/controllo in base a un codice; inoltre, grazie alla sua struttura, con un MUX a _n_ bit è possibile implementare qualsiasi funzione booleana di _n_ variabili, semplicemente cablando i suoi ingressi a 0 o 1 a seconda della presenza dei relativi **mintermini** nella forma canonica della funzione.
@@ -78,5 +78,5 @@ Possiamo vederlo un po' come l'inverso del Multiplexer, dato che è caratterizza
 ***Perché ho detto che può essere visto come l'inverso del multiplexer?***
 Perché in uscita troveremo alto il segnale corrispondete al valore in binario degli ingressi. 
 Vediamo un esempio che rende tutto più chiaro.
-![[Screenshot 2025-08-24 alle 15.50.24.png]]
+![[Screenshot 2025-08-24 alle 15.50.24.png#invert]]
 I segnali A sono i 2 ingressi *selettori* mentre i segnali D sono le uscite.

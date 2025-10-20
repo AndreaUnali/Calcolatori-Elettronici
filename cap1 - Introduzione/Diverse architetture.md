@@ -53,7 +53,7 @@ Tanto per iniziare vediamo sbrigativamente una serie di tipologie di calcolatori
 
 ## Architetture multilivello
 
-![[Screenshot 2025-08-11 alle 18.23.59.png]]
+![[Screenshot 2025-08-11 alle 18.23.59.png#invert]]
 Vedremo poi nel dettaglio la [[Struttura di un computer]] per analizzare le sue componenti interne e il loro funzionamento 
 
 Per progettare una macchina/[[CPU]] non posso mettere insieme i componenti necessari, raggruppare dei transistor e collegarli tra loro. È *necessario astrarre il problema in più livelli, nello specifico ogni livello può usufruire di strumenti e risorse messi a disposizione dai lielli sottostanti.*

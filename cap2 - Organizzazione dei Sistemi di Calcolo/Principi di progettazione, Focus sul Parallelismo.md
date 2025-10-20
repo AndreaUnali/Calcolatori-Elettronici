@@ -36,14 +36,14 @@ Uno dei più importanti metodi per implementare il parallelismo è la [[Pipeling
 ### Architetture Superscalari
 
 In queste architetture si avviano più istruzioni (4-6 contemporaneamente). Ognuna di esse con una propria [[Pipeling|Pipeline]].
-![[Screenshot 2025-08-17 alle 18.38.59.png]]
+![[Screenshot 2025-08-17 alle 18.38.59.png#invert]]
 Ovviamente abbiamo dei problemi a fronte di questo paradigma, principalmente 2:
 - **Interdipendenza tra istruzioni**: diverse istruzioni possono richiedere stesse risorse
 - **Nessuna istruzione può dipendere da una eseguita in parallelo**: ad esempio gli operandi di un istruzione non possono essere il risultato di un altra.
 
 
 È possibile avere una versione della stessa architettura ma con singola pipeline, dotate di unità funzionali multiple
-![[Screenshot 2025-08-17 alle 18.40.44.png]]
+![[Screenshot 2025-08-17 alle 18.40.44.png#invert]]
 Viene duplicato solo lo stadio più lento.
 - Lo stadio S3 deve poter lanciare istruzioni ad una frequenza superiore all’esecuzione dello stadio S4.
 - La CPU contiene diverse unità funzionali indipendenti. 
@@ -60,7 +60,7 @@ Ho 2 opzioni:
 Il Thread che è attualmente in esecuzione esegue 2 istruzioni per ciclo fino a quando non raggiunge uno stallo, in quel caso si passa al Thread successivo.
 
 
-![[Screenshot 2025-08-17 alle 18.46.29.png]]
+![[Screenshot 2025-08-17 alle 18.46.29.png#invert]]
 
 **L'obbiettivo è quello di tenere la CPU perennemente impegnata** 
 

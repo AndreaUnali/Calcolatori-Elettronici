@@ -1,5 +1,6 @@
 {
-  "cssTheme": "Things",
-  "theme": "system",
-  "accentColor": "#9200d6"
+  "cssTheme": "Cupertino",
+  "theme": "obsidian",
+  "accentColor": "#9200d6",
+  "translucency": true
 }

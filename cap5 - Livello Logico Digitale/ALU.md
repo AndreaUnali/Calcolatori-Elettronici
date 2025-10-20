@@ -7,7 +7,7 @@ Per essere tale ha bisogno dei seguenti requisiti:
 3. **MUX** : per interpretare i bit di controllo
 4. **Rete combinatoria**  : per effettuare le operazioni
 
-![[Screenshot 2025-09-01 alle 18.25.01.png]]
+![[Screenshot 2025-09-01 alle 18.25.01.png#invert]]
 
 È inoltre indispensabile avere un blocco in grado di eseguire [[Aritmetica in virgola Mobile|operazioni in virgola Mobile]], una **Floating Poin Unit**. (è possibile vedere come è fatta dalla pagina sopra linkata).
 
@@ -16,7 +16,7 @@ Per essere tale ha bisogno dei seguenti requisiti:
 Il tipo di sommatore più elementare è l'**Half-Adder**, 
 ``Dati 2 bit in ingresso restituisce la loro somma e l'eventuale riporto``
 
-![[Screenshot 2025-09-11 alle 11.02.45.png]]
+![[Screenshot 2025-09-11 alle 11.02.45.png#invert]]
 
 
 - **Ingressi** : 2 bit (i 2 operandi da sommare)
@@ -26,7 +26,7 @@ Il tipo di sommatore più elementare è l'**Half-Adder**,
 
 Il passo subito successivo a livello di implementazione per i sommatori è il **Full-Adder**
 ``Dati 3 bit in ingresso (operandi sa sommare e eventuale riporto) restituisce la somma degli operandi e un eventuale riporto.``
-![[Screenshot 2025-09-11 alle 11.09.51.png]]
+![[Screenshot 2025-09-11 alle 11.09.51.png#invert]]
 Come possiamo vedere dall'immagine è sostanzialmente composto da 2 Half-Adder, il primo (da sinistra) esegua la somma dei due operandi in ingresso e restituisce somma (per adesso parziale) e riporto. 
 Il secondo somma il risultato del primo Half-Adder e l'eventuale riporto in ingresso (derivante da operazioni precedenti), da qua escono la somma totale in uscita e l'eventuale riporto.
 
@@ -34,7 +34,7 @@ Notare che i due riporti vengono poi messi in OR, questo perchè basta uno dei d
 
 ## ALU a 1 Bit
 
-![[Screenshot 2025-09-11 alle 11.17.02.png]]
+![[Screenshot 2025-09-11 alle 11.17.02.png#invert]]
 
 Questa rappresenta il blocco fondamentale per costruire ALU più complesse a 32 o 64 bit.
 ### 1. Unità Logica (in alto a sinistra)
@@ -87,7 +87,7 @@ Questa struttura modulare permette di collegare più ALU a 1 bit in serie per cr
 
 ## ALU a N Bit
 
-![[Screenshot 2025-09-11 alle 11.23.30.png]]
+![[Screenshot 2025-09-11 alle 11.23.30.png#invert]]
 
 Per ottenere ALU a N Bit ci basterà mettere in sequenza tante ALU a 1 Bit.
 Passando da una all'altra gli eventuali riporti delle operazioni.
@@ -120,7 +120,7 @@ Passando da una all'altra gli eventuali riporti delle operazioni.
 ### Carry Save Adder (CSA) 
 - Utilizzato quando si devono sommare **più di due operandi**.
 - Idea: evitare la propagazione dei riporti a ogni somma parziale.
-![[Screenshot 2025-09-11 alle 11.58.49.png]]
+![[Screenshot 2025-09-11 alle 11.58.49.png#invert]]
 #### Principio
 - Dati 3 addendi X, Y, Z:
   - La somma produce due uscite:

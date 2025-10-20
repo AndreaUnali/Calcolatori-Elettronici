@@ -5,7 +5,7 @@ Purtroppo in questa prima nota introduttiva (*si introduttiva anche se si tratta
 Iniziando dalle basi, come già detto tale quale in precedenza possiamo constatare che:
 
 - **Un calcolatore elettronico può essere sinteticamente visto come un insieme di unità funzionali interconnesse tra loro mediante un BUS**
-![[Screenshot 2025-08-19 alle 16.45.10.png]]
+![[Screenshot 2025-08-19 alle 16.45.10.png#invert]]
 
 Tutti i BUS hanno una propria velocità, quelli sincroni sono scanditi dal clock.  Quelli asincroni dipendono dalla frequenza della corrente che li attraversa, che viene a sua volta influenzata dalla circuiteria a monte e a valle del BUS.
 

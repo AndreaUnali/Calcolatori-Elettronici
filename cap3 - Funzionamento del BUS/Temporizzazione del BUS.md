@@ -6,7 +6,7 @@ Abbiamo sostanzalmente 2 tipi di operazioni:
 - **Lettura**:  un dato viene trasferito da uno SLAVE al MASTER. 
 - **Scrittura**: un dato viene trasferito dal MASTER a uno SLAVE.
 
-==`Sottoliineo che la direzionoe del dato è sempre decisa dal MASTER`==
+==`Sottolineo che la direzionoe del dato è sempre decisa dal MASTER`==
 
 Il susseguirsi di questi eventi sopra descritti va coordinato e per farlo abbiamo 2 metodi:
 - **Temporizzazione Sincrona**
@@ -21,14 +21,14 @@ Vediamo cosa la caratterizza:
 - Tutti gli eventi sono sincronizzati sui fronti del clock.
 - Molti eventi durano più cicli di clock.
 
-![[Screenshot 2025-08-20 alle 11.23.51.png]]
+![[Screenshot 2025-08-20 alle 11.23.51.png#invert]]
 
 ``Questa immagine ci mostra chiaramente come tutti gli eventi siano guidati dal tempo imposto dai colpi di clock. In un caso di lettura di un dato.``
 
 
 ## Temporizzazione Asincrona
 
-Questa modalità consente a dispositivi di diversa velocità di condividere efficacemente il BUS, è quindi più flessibile.
+Questa modalità consente a dispositivi di diversa velocità di condividere efficacemente il BUS, è quindi più flessibile. Un evento dipende dagli eventi precedenti.
 
 Vediamo da cosa è caratterizzata:
 - Non esiste un segnale di clock comune tra tutti.
@@ -37,12 +37,16 @@ Vediamo da cosa è caratterizzata:
 - Lo stato delle operazioni avanza in corrispondenza degli eventi
 
 ### Lettura asincrona di una Parola 
-![[Screenshot 2025-08-20 alle 11.35.21.png]]
+![[Screenshot 2025-08-20 alle 11.35.21.png#invert]]
 
-1. Il **Master (CPU) invia l’indirizzo** sul BUS indirizzi, attiva **MREQ**, **RD** e, dopo averli stabilizzati, attiva **MSYN**. 
+1. Il **Master invia l’indirizzo** sul BUS indirizzi, attiva **MREQ**, **RD** e, dopo averli stabilizzati, attiva **MSYN**. 
 2. Lo **Slave (memoria) esegue l’operazione** nel minor tempo possibile e fornisce la parola sul BUS dati; poi attiva **SSYN**.
 3. Il **Master legge la parola** dal BUS dati, toglie l’indirizzo e disattiva MREQ e RD; poi disattiva anche MSYN. 
 4. Infine, lo Slave disattiva SSYN.
+
+```
+Tutte le operazioni sono scandite dall'attivazione e la disattivazione di MSYN e SSYN
+```
 
 
 
@@ -51,6 +55,8 @@ Vediamo da cosa è caratterizzata:
 Il BUS sincrono è più semplice da implementare e da gestire. Introduce *sprechi di tempo* (operazioni che richiederebbero meno di un ciclo o un numero frazionato di essi.)
 
 Il BUS asincrono è più efficiente ma ha in generale una complessità più alta.
+
+Si usano principalmente bus con temporizzazione sincrona, nonostante  sia più lenta. Questo perché la maggior parte dei dispositivi (CPU, memorie, etc..) sono nativamente sincroni, ciò significa che per permettere l'utilizzo con bus asincroni necessiterebbe una rete sequenziale ad hoc usata come interfaccia tra il bus e il dispositivo. Aumentando particolarmente  la complessità del sistema (in particolare la progettazione di esso). 
 
 
 **Prossimo Argomento —————————>> [[Algebra e Logica Binaria|Capitolo 4 Algebra e Logica Binaria]]**

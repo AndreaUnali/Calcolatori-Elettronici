@@ -6,7 +6,7 @@ Questo tipo di approccio permette di eseguire più operazioni contemporaneamente
 3. L'obbiettivo è tenere occupati più moduli possibili contemporaneamente, appene se ne libera uno deve essere richiesto dall'istruzione successiva.
 
 Vediamo uno schema:
-![[Screenshot 2025-08-18 alle 16.51.57.png]]
+![[Screenshot 2025-08-18 alle 16.51.57.png#invert]]
 
 L'istruzione (o i bit di essa) non passa da un componente all'altro, viene divisa nei moduli della pipeline che si attivano in maniera sequenziale (gestiti da un controllo) solo perchè la *fase n necessita della fase n-1*. 
 
