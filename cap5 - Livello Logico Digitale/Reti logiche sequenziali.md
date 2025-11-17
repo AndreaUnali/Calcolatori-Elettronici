@@ -1,7 +1,7 @@
 ## Definizione e Caratteristiche
 
 Le reti sequenziali proprio come le [[Reti logiche combinatorie | reti combinatorie]] sono caratterizzate da **N ingressi** e **M uscite**. A differenza di esse però *i valori dei segnali in uscita dipendono dagli ingressi assunti precedentemente*.
-Per far ciò hanno ovviamente bisogno di qualche [[Elementi di memoria in una Rete Logica| elemento di memoria]], e dato che la memoria è ovviamente limitata possono "*ricordare*" sono un numero finito di combinazioni di ingressi precedenti.
+Per far ciò hanno ovviamente bisogno di qualche [[Elementi di memoria in una Rete Logica| elemento di memoria]], e dato che la memoria è ovviamente limitata possono "*ricordare*" solo un numero finito di combinazioni di ingressi precedenti.
 **Esempio:**
 ![[Screenshot 2025-08-24 alle 16.03.19.png#invert]]
 Questa rete sequenziale realizza la sua memoria tramite retroazione, cosi è implementato l'elemento di memoria più semplice il **latch**.
@@ -24,11 +24,18 @@ La differenza sostanziale è che in Moore i valori in uscita della rete sono ass
 
 Facciamo degli esempi per capire meglio:
 
-``Ho implementato una stupidissima rete logica che conta da 0 a 2 finche in ingresso ha 1 e ricomincia, se invece in ingresso ha 0 torna allo step precedente del conteggio (quando è a 0 rimane a zero finche in ingresso ha valore 0)``
+``Ho implementato una stupidissima rete logica che conta da 0 a 2 finche in ingresso ha 1 e ricomincia, se invece in ingresso ha 0 torna allo step precedente del conteggio (quando è a 0 rimane a zero fin tanto che in ingresso ha valore 0)``
 
 Vediamo le differenze tra Mealy e Moore
 ![[digrammi mealy e mooore.drawio.png#invert]]
 Giusto per capire, gli ingressi sono in verde, le uscite in arancione e gli stati i cerchi celesti e la lettera nera per differenziarli.
+
+## Differenze Implementative
+
+- **Mealy**: Ha sempre 2 reti combinatorie, una per gli stati e una per le uscite.
+- **Moore**: Ha sempre una rete combinatorie per il calcolo del prossimo stato. 
+	- Dai [[Elementi di memoria in una Rete Logica|Flip Flop]] osservo lo stato presente (ingresso degli FF), e da quei bit posso ricavare le uscite *anche con un semplice decoder*
+
 
 ## Tabella di flusso e Tabella delle transizioni
 - La **tabella di flusso** descrive le transizioni della rete sequenziale in forma tabellare:  
@@ -59,3 +66,15 @@ Giusto per capire, gli ingressi sono in verde, le uscite in arancione e gli stat
 | 01             | 01 / 10 | 10 / 01 |
 | 10             | 10 / 01 | 11 / 11 |
 | 11             | 11 / 11 | 00 / 00 |
+
+## Architettura di una Rete Logica Sequenziale
+
+- [u] **Ingresso dei [[Elementi di memoria in una Rete Logica|Flip Flop]]** : lo stato presente
+- [d] **Uscita dei [[Elementi di memoria in una Rete Logica| Flip Flop]]**: lo stato futuro 
+![[Screenshot 2025-11-10 alle 14.14.05.png#invert]]
+In caso di una macchina sincrona avrò anche un segnale di clock (tipicamente indicato con `CLK`) che *temporizza* le uscite e i cambi di stato.
+
+
+> [!Temporizza] 
+> Con Temporizza si intende che uscite e stati cambiano il valore allo "scoccare" del colpo di clock
+

@@ -14,11 +14,16 @@
 	- [ ] dare uno sguardo a PCI Express
 
 - [*] **cap4**
+	- [ ] [[Leggi di Karnaugh|mappe di karnough]]
+	- [ ] metodo Quine-McKluskey (?)
 
 - [*] **cap5** 
-	- [ ] Leggi di Karnough
 	- [ ] Vedere Reti Sequenziali Sincrone Libro/SLide
 	- [ ] collegare i nodi 
+	- [ ] Integrare dal libro latch di tipo D e T
+	- [ ] Vedere dal libro 
+	- [ ] Integrare i blocchi di ritardo e registri (normali e a scorrimento) dal Libro o slide [[Blocchi di Ritardo]]
+	- [ ] Inserire le differenza architetturali tra mic1 e mic2
 
 - [*] **cap6**
 	- [ ] 

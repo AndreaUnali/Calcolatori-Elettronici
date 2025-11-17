@@ -7,7 +7,7 @@ Solo un dispositivo alla volta può essere abilitato a usare il BUS, riguardo ci
 - Trasmissioni a Bus parallele
 !!(dopo vediamo la diferenza)!!
 
-In un moderno calcolatore coesistiono più BUS ma quello figo che si occupa di collegare  i moduli più fohrty (CPU, [[Memorie]], I/O) si chiama **BUS di Sistema** o se vuoi fare il togo in inglese *System BUS*
+In un moderno calcolatore coesistiono più BUS ma quello figo che si occupa di collegare  i moduli più fohrty ([[CPU]], [[Memorie]],[[Schede IO||Moduli Input Output]] ) si chiama **BUS di Sistema** o se vuoi fare il togo in inglese *System BUS*
 
 
 In un moderno calcolatore abbiamo:

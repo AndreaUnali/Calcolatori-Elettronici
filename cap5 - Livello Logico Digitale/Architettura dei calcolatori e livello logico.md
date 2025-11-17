@@ -6,7 +6,7 @@ Per semplificare la progettazione e rendere più facile la manutenzione scegliam
 - Più siamo in basso di Livello più è facile la realizzazione Hardware e più è complesso programmare
 - Più siamo in alto di Livello più è facile programmare ma da un certo punto in poi diventa impossibile la realizzazione Hardware.
 - Il livello 2 è il più basso al quale un utente può arrivare.
-- Tipicamente di programma al livello 5
+- Tipicamente si programma al livello 5
 
 ## Livello 0 Circuiti Logici Digitali
 

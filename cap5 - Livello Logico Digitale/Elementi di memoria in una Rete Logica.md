@@ -15,14 +15,20 @@ Adesso vediamo diversi tipi di Latch in ordine di complessità.
 Il modo più facile per capire la logica secondo me è:
 1. Se R = 0 abbiamo S in uscita
 2. Se R = 1 abbiamo sempre 0 in uscita
-3. Se R = S = 0 abbiamo Q(t) che sarebbe l'uscita all'istante precedente (ricorda che questa tabella di verita non ci dice niente sugli istanti non ha senso guardare l'ordine in cui sono disposti i segnali qui)
+3. Se R = S = 0 abbiamo Q(t) che sarebbe l'uscita all'istante precedente (ricorda che questa tabella di verità non ci dice niente sugli istanti di tempo passati/presenti/futuri non ha senso guardare l'ordine in cui sono disposti i segnali qui)
 4. Non posso mai avere S = R = 1.
 
 ## Latch SR Sincrono
 
 Vediamo adesso cosa succede se proviamo a rendere sincrono il circuito appena visto, collegando quindi un clock alla logica.
 ![[Screenshot 2025-08-25 alle 14.54.42.png#invert]]
-La logica rimane identica l'unica differenza è che le uscite cambiano solo in corrispondenza di fronti di salita del clock.
+La logica rimane identica l'unica differenza è che le uscite cambiano solo in corrispondenza di fronti di salita (o di discesa) del clock.
+
+## Implementazione Pratica
+
+ Per implementare un Latch di tipo SR necessito di:
+ - 2 transistor 
+ - 2 interruttori -> non possono mai essere entrambi aperti.
 
 ## Latch JK
 
@@ -47,6 +53,11 @@ Il concetto di base è quello di generare un ritardo (nello specifico sfruttiamo
  Nel diagramma in figura l’inverter induce un ritardo  $\Delta$ che permette alla rete di cambiare il proprio stato. 
  La durata $\Delta$ dell’impulso equivale al ritardo dell’inverter.
 
+
+### Come rappresentiamo i Latch all'interno dei nostri circuiti
+
+![[Screenshot 2025-11-17 alle 14.42.38.png#invert]]
+
 ## Elementi di Memoria Master-Slave (Flip-Flop)
 1. **Cosa sono gli elementi di memoria?**
 
@@ -68,7 +79,7 @@ Il concetto di base è quello di generare un ritardo (nello specifico sfruttiamo
 	
 	- **Slave** = secondo latch  
 
-Funzionano alternati, grazie al segnale di **clock**:
+Funzionano alternati, grazie alla negazione del segnale di **clock**:
 
 - Quando il **clock è alto** → il master legge l’ingresso, lo slave è bloccato.  
 
@@ -87,3 +98,17 @@ Funzionano alternati, grazie al segnale di **clock**:
 	- È la base di **registri, contatori, memorie digitali**.
 
 
+### Come rappresentiamo i Flip Flop all'interno dei nostri circuiti
+
+
+![[Screenshot 2025-11-17 alle 14.45.15.png#invert]]
+
+
+# Analisi e sintesi di una rete sequenziale 
+
+- [i] **Analisi**: Consiste nel passaggio dal circuito alla sua descrizione.
+	- si descrive mediante tabelle e diagrammi
+
+- [!] **Sintesi**: Consiste nel passaggio dalla descrizione delle funzionalità alla realizzazione del circuito.
+	- Tipicamente questa fase ha in ingresso una descrizione (anche qualitativa) del comportamento che il circuito deve avere, e si progetta a step la circuiteria
+	- si passa per diagrammi -> tabelle -> equazioni

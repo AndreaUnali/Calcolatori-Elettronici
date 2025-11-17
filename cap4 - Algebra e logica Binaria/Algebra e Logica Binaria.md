@@ -229,7 +229,7 @@ Sistema algebrico definito da:
 
 3. Tabelle di verità
 
-4. Relazione di equivalenza "=" tra espressioni
+4. Relazione di equivalenza "=" tra espressioni 
 
   
 

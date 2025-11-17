@@ -35,6 +35,11 @@ Ogni chip fornisce solo **una parte della parola**:
 
 I **segnali di controllo** possono invece essere sia **unificati** (in modo da attivare tutti i chip insieme), o **differenziati** (in modo da dividere il banco di memoria in più blocchi)
 
+Esempi di segnali di controllo: 
+- **RD**: segnale univoco che ci dice se siamo in fase di scrittura o lettura
+- **CS**: sta per *chip select*, ci dice se siamo autorizzati ad accedere a quell'area di memoria
+- **OE**: sta per *output enable*, ci dice se siamo autorizzati alla scrittura sul [[BUS]]
+
 
 Con più chip si possono realizzare:
 - **Memorie più larghe** (aumentando i bit per parola).
