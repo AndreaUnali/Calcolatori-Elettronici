@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cap6 - Memorie e Cache/Introduzione alle Memorie.md",
+                "file": "cap6 - Memorie e Cache/CACHE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Introduzione alle Memorie"
+              "title": "CACHE"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cap6 - Memorie e Cache/Introduzione alle Memorie.md",
+                "file": "cap6 - Memorie e Cache/CACHE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introduzione alle Memorie"
+              "title": "Backlinks for CACHE"
             }
           },
           {
@@ -172,19 +172,19 @@
   },
   "active": "e4052a2316d550f6",
   "lastOpenFiles": [
-    "cap6 - Memorie e Cache/Mappatura della Cache.md",
     "cap6 - Memorie e Cache/Principio di Località e Gerarchie.md",
     "cap6 - Memorie e Cache/Prestazioni e accesso alla memorie.md",
-    "cap6 - Memorie e Cache/Parametri della Cache.md",
+    "note a margine/Legge di Amdahl.md",
     "cap6 - Memorie e Cache/Memorie a semiconduttore.md",
-    "cap6 - Memorie e Cache/CACHE.md",
     "cap6 - Memorie e Cache/Introduzione alle Memorie.md",
+    "cap6 - Memorie e Cache/CACHE.md",
+    "cap6 - Memorie e Cache/Mappatura della Cache.md",
+    "cap6 - Memorie e Cache/Parametri della Cache.md",
     "cap5 - Livello Logico Digitale/Elementi di memoria in una Rete Logica.md",
     "To-Do List.md",
     "ReadMe.md",
     "Blocchi di Ritardo.md",
     "note a margine/Leggi di Karnaugh.md",
-    "note a margine/Legge di Amdahl.md",
     "pic/Screenshot 2025-11-17 alle 14.45.15.png",
     "cap5 - Livello Logico Digitale/Reti logiche sequenziali.md",
     "pic/Screenshot 2025-11-17 alle 14.42.38.png",

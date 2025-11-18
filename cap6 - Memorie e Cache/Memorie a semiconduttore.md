@@ -14,7 +14,7 @@
 
 Quando parliamo della `memoria del computer` ci riferiamo spesso alla sua memoria RAM, ai nostri giorni i computer hanno dai 4GB (a partire da una fascia bassa) fino a 64 al massimo 128 GB per quelli di fascia alta.  Specifichiamo però che non abbiamo un limite massimo da rispettare, con i soldi e lo spazio (in particolare spazio all'interno dell'hardware) è possibile aumentare di molto questi numeri.
 
-La **RAM** è una memoria volatile, significa che una volta terminato il suo compito non conserva i dati al suo interno. A compenso di ciò però è molto veloce, la sua velocità è fondamentale per le prestazioni del sistema.
+La **RAM** è una *memoria volatile*, significa che una volta terminato il suo compito non conserva i dati al suo interno. A compenso di ciò però è molto veloce, la sua velocità è fondamentale per le prestazioni del sistema.
 
 - La lettura e la scrittura avvengo mediante segnali elettrici.
 
@@ -68,14 +68,15 @@ Le **EEPROM** (Electrically Erasable Programmable Read-Only Memory) sono memorie
 - Sono memorie **non volatili** a semiconduttore (mantengono i dati senza alimentazione).  
 - Derivano dalle **EEPROM**, ma sono più veloci e convenienti.  
 - Ampiamente usate in sistemi embedded, memorie di massa (SSD, USB, schede SD).  
-![[Screenshot 2025-09-15 alle 11.58.10.png]]
+- Organizzata a blocchi
+![[Screenshot 2025-09-15 alle 11.58.10.png#invert]]
 ---
 
 #### Caratteristiche principali
-- **Lettura:** veloce (simile a DRAM).  
+- **Lettura:** veloce (simile a DRAM), posso indirizzare o interi blocchi o una specifica riga di un blocco.  
 - **Scrittura:** più lenta, richiede la cancellazione preventiva di un intero **blocco**.  
 - **Cancellazione:** avviene per blocchi (molto più grande della singola cella → limite rispetto alle EEPROM).  
-- **Durata:** numero limitato di cicli di scrittura/cancellazione (usura delle celle).  
+- **Durata:** numero limitato di *cicli di scrittura/cancellazione*, possiamo trovarlo anche come "cicli di P/E" (usura delle celle).  
 
 ---
 
