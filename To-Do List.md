@@ -26,4 +26,5 @@
 	- [ ] Inserire le differenza architetturali tra mic1 e mic2
 
 - [*] **cap6**
+	- [ ] Cache
 	- [ ] 

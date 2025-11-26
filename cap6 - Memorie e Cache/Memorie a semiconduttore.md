@@ -92,7 +92,30 @@ Le **EEPROM** (Electrically Erasable Programmable Read-Only Memory) sono memorie
   - Usata per archiviazione di massa (SSD, penne USB, SD card).  
 
 ---
+#### Ciclo di vita delle memorie Flash
+A differenza di altre memorie (come le EEPROM, che possono essere aggiornate a livello di byte), nelle memorie flash:
 
+   - La *cancellazione avviene tramite segnali elettrici*.
+   
+   - Non è possibile aggiornare solo una parte della memoria a livello di byte o word. L'aggiornamento deve avvenire a un livello superiore (blocco o pagina).
+   
+   - L'operazione di scrittura è **molto più veloce** rispetto a una EPROM
+
+• **Operazioni su Blocco (Block-Based):** Nelle memorie flash, la cancellazione (erase) è tipicamente un'operazione su **blocco**. Sebbene il contenuto possa essere aggiornato solo in parte, non si può scendere al livello del byte o della word. Per aggiornare un dato, è spesso necessario cancellare l'intero blocco prima di riscrivere le pagine aggiornate (questo è implicito nel modello Flash, che limita gli aggiornamenti a parti più grandi di un byte o una word).
+
+• **Operazioni su Pagina (Page-Based):** La **pagina** rappresenta l'unità logica più piccola per l'operazione di programmazione (scrittura). Dopo che un blocco è stato cancellato, la scrittura (o "programmazione") può avvenire a livello di pagina.
+
+L'influenza della scelta tra operazioni **page-based** e **block-based** sulla vita della memoria (durabilità) è **critica** e deriva dal meccanismo fisico di cancellazione delle memorie Flash:
+
+1. **Unità Operative:** Nelle memorie Flash, l'unità logica più piccola per la scrittura (programmazione) è la **pagina** (page-based), ma la cancellazione (_erase_) deve avvenire sull'unità più grande, il **blocco** (block-based). Ogni blocco è suddiviso in N pagine.
+
+2. **Consumo del Ciclo di Vita:** La durabilità è misurata in **cicli di Programmazione/Cancellazione (P/E cycles)**, dove un ciclo è consumato ogni volta che un blocco viene cancellato e riscritto.
+
+3. **L'Impatto:** Poiché non è possibile aggiornare i dati a un livello granulare (byte o word), anche se un utente modifica solo un dato all'interno di una singola pagina, il dispositivo deve cancellare l'intero **blocco** che contiene quella pagina prima di poter riscrivere la pagina aggiornata (programmazione). Questo fa sì che **ogni piccolo aggiornamento consumi un intero ciclo P/E del blocco**.
+
+4. **Dipendenza:** Pertanto, la **durata del componente dipende direttamente dalla dimensione del blocco di lettura/scrittura**. Più grande è il blocco, e più piccola è la modifica richiesta, meno efficiente è l'operazione in termini di usura, costringendo il sistema a implementare il **[[wear leveling]]** (distribuzione uniforme delle scritture) per prolungare la vita della memoria.
+
+---
 #### Prestazioni
 - Tempo di accesso in lettura: **10–50 ns**.  
 - Tempo di scrittura: **200–500 µs** (molto più lento).  
@@ -103,3 +126,4 @@ Le **EEPROM** (Electrically Erasable Programmable Read-Only Memory) sono memorie
 #### Utilizzi
 - **NOR Flash:** memorizzazione di programmi, BIOS, firmware.  
 - **NAND Flash:** archiviazione dati (SSD, telefoni, fotocamere, dispositivi portatili).  
+

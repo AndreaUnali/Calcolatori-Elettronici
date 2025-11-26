@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cap6 - Memorie e Cache/CACHE.md",
+                "file": "cap6 - Memorie e Cache/Principio di Località e Gerarchie.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CACHE"
+              "title": "Principio di Località e Gerarchie"
             }
           }
         ]
@@ -172,18 +172,21 @@
   },
   "active": "e4052a2316d550f6",
   "lastOpenFiles": [
+    "ReadMe.md",
     "cap6 - Memorie e Cache/Principio di Località e Gerarchie.md",
-    "cap6 - Memorie e Cache/Prestazioni e accesso alla memorie.md",
-    "note a margine/Legge di Amdahl.md",
+    "To-Do List.md",
     "cap6 - Memorie e Cache/Memorie a semiconduttore.md",
     "cap6 - Memorie e Cache/Introduzione alle Memorie.md",
-    "cap6 - Memorie e Cache/CACHE.md",
     "cap6 - Memorie e Cache/Mappatura della Cache.md",
+    "cap6 - Memorie e Cache/Prestazioni e accesso alla memorie.md",
     "cap6 - Memorie e Cache/Parametri della Cache.md",
+    "pic/Screenshot 2025-11-19 alle 19.54.03.png",
+    "note a margine/wear leveling.md",
+    "pic/Screenshot 2025-11-19 alle 19.30.52.png",
+    "cap6 - Memorie e Cache/CACHE.md",
+    "note a margine/Legge di Amdahl.md",
     "cap5 - Livello Logico Digitale/Elementi di memoria in una Rete Logica.md",
-    "To-Do List.md",
-    "ReadMe.md",
-    "Blocchi di Ritardo.md",
+    "note a margine/Blocchi di Ritardo.md",
     "note a margine/Leggi di Karnaugh.md",
     "pic/Screenshot 2025-11-17 alle 14.45.15.png",
     "cap5 - Livello Logico Digitale/Reti logiche sequenziali.md",
@@ -200,8 +203,6 @@
     "cap2 - Organizzazione dei Sistemi di Calcolo/Architetture CISC e RISC.md",
     "cap5 - Livello Logico Digitale/Architettura dei calcolatori e livello logico.md",
     "note a margine/daisy chain.md",
-    "cap3 - Funzionamento del BUS/Arbitraggio del BUS.md",
-    "note a margine/Architetture Multiscalari.md",
     "pic/Screenshot 2025-10-20 alle 16.21.30.png",
     "pic/Screenshot 2025-10-20 alle 15.18.18.png",
     "pic/Screenshot 2025-10-20 alle 15.11.39.png",
@@ -209,8 +210,6 @@
     "pic/Screenshot 2025-10-15 alle 11.25.53.png",
     "Untitled.base",
     "Untitled",
-    "pic/LeggeAmdahl copia.png",
-    "pic/Screenshot 2025-09-15 alle 11.58.10.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "cap8",

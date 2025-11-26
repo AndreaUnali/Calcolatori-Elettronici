@@ -33,6 +33,16 @@ Ogni chip fornisce solo **una parte della parola**:
 ==Gli **indirizzi** sono condivisi da tutti i chip del banco → in questo modo la stessa posizione viene selezionata in ogni chip.==
 ![[Screenshot 2025-09-12 alle 11.57.39.png#invert]]
 
+
+<div style="display: flex; gap: 1rem;">
+  <div style="flex: 1;">
+    <p>Se le parole sono più grandi della dimensione delle righe del chip di memoria usato, sarà necessario collegare tra loro i chip, come si può notare nell'immagine sottostante nel caso in cui la parola è da 128 bit</p>
+  </div>
+  <div style="flex: 1;">
+    <img src="Screenshot 2025-11-19 alle 19.30.52.png" style="width:100%;">
+  </div>
+</div>
+
 I **segnali di controllo** possono invece essere sia **unificati** (in modo da attivare tutti i chip insieme), o **differenziati** (in modo da dividere il banco di memoria in più blocchi)
 
 Esempi di segnali di controllo: 
@@ -41,7 +51,7 @@ Esempi di segnali di controllo:
 - **OE**: sta per *output enable*, ci dice se siamo autorizzati alla scrittura sul [[BUS]]
 
 
-Con più chip si possono realizzare:
+A seconda dei bisogni posso usare banchi di memoria diversi, che possono variare per:
 - **Memorie più larghe** (aumentando i bit per parola).
-	
 - **Memorie più grandi** (aumentando il numero di parole).
+- **Memorie più veloci**
