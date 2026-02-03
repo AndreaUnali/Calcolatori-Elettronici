@@ -1,3 +1,7 @@
+
+> **⚠️ ATTENZIONE**
+> Da ora è possibile scaricare la versione PDF degli appunti (calcolatoriFINITO.pdf) completa di tutte le informazioni contenute nei vari file mardown e con l'aggiunta dei capitoli non trattati (escluso 8) 
+
 Questo repository contiene i miei appunti del corso di **Calcolatori Elettronici**, scritti in **Markdown** e pensati per essere consultati principalmente tramite [**Obsidian**](https://obsidian.md).
 
   
@@ -57,4 +61,4 @@ Puoi comunque leggere i file .md con qualsiasi editor (VS Code, Typora, ecc.), m
 
 ##  Stato
 
-Gli appunti sono in costante aggiornamento man mano che ripercorro il corso e integro materiale dal libro.
+TERMINATO
